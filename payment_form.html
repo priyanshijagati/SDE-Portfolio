@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="">
+        <h1 style="text-align:center;">PAYMENT FORM</h1>
+        <p> Feilds marked with * should not be left blank</p>
+        <h2><u>USER DETAILS</u></h2>
+        <p>NAME : * <input type="text" name="name" required</p>
+        <p>
+            GENDER : *
+            <select name="gender" id="gender">
+                <option value="">--SELECT GENDER--</option>
+                <option value="MALE" name="gender" id="gender" required >Male</option>
+                <option value="FEMALE" name="gender" id="gender" required >Female</option>
+                <option value="transgender" name="gender" id="gender" required >transgender</option>
+
+            </select>
+        </p>
+        <p>CONTACT NUMBER : *<input type="number" name="contact"id="contact" required >  </p>
+        <p>PINCODE :<input type="number" name="pincode" id="pincode"  >  </p>
+        <p>EMAIL: * <input type="email" name="email" id="email" required >  </p>
+        <hr>
+        <h2><u>PAYMENT DETAILS</u></h2>
+        <p>
+            CARD TYPE : *
+            <select name="cardtype" id="cardtype" required>
+                <option value="">--SELECT CARD TYPE--</option>
+                <option value="rupay" >RUPAY</option>
+                <option value="mastercard">MASTERCARD</option>
+                <option value="ATM" >ATM</option>
+
+            </select>
+        </p>
+        <p>CARD NUMBER: *<input type="number" name="cardnumber" id="cardnumber" required></p>
+        <p>EXP DATE: <input type="date" name="expdate" id="expdate" ></p>
+        <p>CVV : * <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" style="text-align: center;" value="PAY NOW" >
+
+    </form>
+    
+    
+</body>
+</html>
