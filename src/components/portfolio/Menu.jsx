@@ -25,7 +25,7 @@ const Menu = [
 		image: Work3,
 		title: "Room-Planner",
 		category: ["Javascript","Node.Js"],
-		url: "https://travel.gregsithole.com",
+		// url: "https://travel.gregsithole.com",
 		repositoryUrl: "https://github.com/priyanshijagati/Room-planner"
 	},
 	{
